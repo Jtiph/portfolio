@@ -1,0 +1,39 @@
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  margin-top: 10rem;
+  &-title {
+    position: relative; // tw-relative
+    display: flex; // tw-flex
+    flex-direction: column; // tw-flex-col
+    z-index: 10; // tw-z-10
+    font-size: 1.875rem; // tw-text-3xl (environ 1.875rem)
+    max-width: 40rem; // tw-max-w-lg (environ 32rem)
+    text-align: center; // tw-text-center
+    letter-spacing: -0.015em; // tw-tracking-tight
+    font-weight: 500; // tw-font-medium
+    background-clip: text; // tw-bg-clip-text
+    color: transparent; // Texte transparent pour le dégradé
+    background-image: linear-gradient(
+      to bottom,
+      #a7bcdf,
+      #ffffff
+    ); // tw-bg-gradient-to-b from-neutral-800 via-white to-white
+    display: flex; // Répété
+    align-items: baseline; // tw-items-baseline
+    white-space: nowrap;
+  }
+  &-name {
+    font-size: 5rem;
+    font-weight: 100;
+    font-family: "Reenie Beanie", cursive;
+  }
+  .profile-img {
+    border-radius: 50%;
+    width: 325px;
+  }
+}

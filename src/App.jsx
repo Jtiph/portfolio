@@ -4,15 +4,21 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import './index.css';
 import './app.scss';
+import HomeBackground from "./components/ui/HomeBackground/HomeBackground";
+import Navbar from "./components/Navbar/Navbar";
 
 
 function App () {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/about" element={<About/>}/>
-      </Routes>
+      <div>
+        <Navbar/>
+      <HomeBackground/>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/about" element={<About/>}/>
+        </Routes>
+      </div>
     </Router>
   )
 }
