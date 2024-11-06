@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "title": "Premiers pas sur le langage HTML",
+        "description": "Description du projet 2",
+        "image": "./assets/images/projets/projet2.webp",
+        "alt": "Image du projet HTML",
+        "link": "https://github.com/Jtiph/riding-cities.git"
+    },
+    {
+        "id": 2,
+        "title": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
+        "description": "Description du projet 3",
+        "image": "./assets/images/projets/projet3.webp",
+        "alt": "Page d'accueil d'une agence de voyage",
+        "link": "https://github.com/Jtiph/booki.git"
+    },
+    {
+        "id": 3,
+        "title": "Améliorez l'interface d'un site mobile avec des animations CSS",
+        "description": "Description du projet 4",
+        "image": "./assets/images/projets/projet4.webp",
+        "alt": "Animation CSS sur un site mobile",
+        "link": "https://github.com/Jtiph/ohmyfood.git"
+    },
+    {
+        "id": 4,
+        "title": "Premiers pas sur le langage JavaScript",
+        "description": "Description du projet 5",
+        "image": "./assets/images/projets/projet5.webp",
+        "alt": "Premier projet JavaScript",
+        "link": "https://github.com/Jtiph/print-it.git"
+    },
+    {
+        "id": 5,
+        "title": "Créez une page web dynamique avec JavaScript",
+        "description": "Description du projet 6",
+        "image": "./assets/images/projets/projet6.webp",
+        "alt": "Image du site de l'architecte Sophie Bluel développé avec JavaScript",
+        "link": "https://github.com/Jtiph/Sophie-Bluel-Architecte.git"
+    },
+    {
+        "id": 6,
+        "title": "Créez une application web de location immobilière avec React",
+        "description": "Description du projet 7",
+        "image": "./assets/images/projets/projet7.webp",
+        "alt": "Application web de location immobilière",
+        "link": "https://github.com/Jtiph/kasa.git"
+    },
+    {
+        "id": 7,
+        "title": "Optimisez le référencement d'un site de photographe",
+        "description": "Description du projet 8",
+        "image": "./assets/images/projets/projet8.webp",
+        "alt": "Référencement d'un site de photographe",
+        "link": "https://github.com/Jtiph/ninacarducci.git"
+    },
+    {
+        "id": 8,
+        "title": "Débuggez le site d'une agence d'événementiel",
+        "description": "Description du projet 9",
+        "image": "./assets/images/projets/projet9.webp",
+        "alt": "Débuggage d'un site d'événementiel",
+        "link": "https://github.com/mon-projet3"
+    },
+    {
+        "id": 9,
+        "title": "Implémentez le front-end d'une application bancaire avec React",
+        "description": "Description du projet 10",
+        "image": "./assets/images/projets/projet10.webp",
+        "alt": "Front-end d'une application bancaire",
+        "link": "https://github.com/mon-projet3"
+    },
+    {
+        "id": 10,
+        "title": "Planifiez le développement du site de votre client",
+        "description": "Description du projet 11",
+        "image": "./assets/images/projets/projet11.webp",
+        "alt": "Image projet menu maker by Qwenta",
+        "link": "https://github.com/Jtiph/menu-maker-by-qwenta.git"
+    },
+    {
+        "id": 11,
+        "title": "Créez et publiez votre portfolio de développeur",
+        "description": "Description du projet 12",
+        "image": "./assets/images/projets/projet12.webp",
+        "alt": "Image du portfolio de développeur",
+        "link": "https://github.com/Jtiph/portfolio.git"
+    }
+]

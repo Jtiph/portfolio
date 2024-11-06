@@ -1,4 +1,3 @@
-"use client";;
 import { cn } from "@/lib/utils";
 import React, { useState, useEffect, useRef, useCallback } from "react";
 
@@ -109,8 +108,8 @@ export const StarsBackground = ({
   }, [stars]);
 
   return (
-    (<canvas
+    <canvas
       ref={canvasRef}
-      className={cn("tw-h-full tw-w-full tw-absolute tw-inset-0", className)} />)
+      className={cn("tw-h-full tw-w-full tw-absolute tw-inset-0 tw-z-0", className)} />
   );
 };

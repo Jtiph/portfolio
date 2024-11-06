@@ -1,0 +1,27 @@
+.skills {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  background: #0d1118;
+  border: 1px solid #617595;
+  border-radius: 20px;
+  width: 1300px;
+  padding: 37px;
+  align-items: center;
+  justify-content: center;
+  .logo-js {
+    width: 30px;
+  }
+}
+.animation-spin {
+  animation: spin 20s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
