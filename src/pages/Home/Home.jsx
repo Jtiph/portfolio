@@ -35,9 +35,11 @@ function Home () {
                         <FaGithub /> Découvrir sur GitHub
                     </button>
                 </a>
-                <button className="hero-cvBtn">
-                    <FaDownload />Télécharger mon cv
-                </button>           
+                <a href="https://drive.google.com/file/d/1bJqfZcUXOIFcqJqfOsxfOby1KgifQzn5/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <button className="hero-cvBtn">
+                        <FaDownload />Télécharger mon cv
+                    </button>
+                </a>         
             </div>
         </div>
         <section className="preview-project-section">

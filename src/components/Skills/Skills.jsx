@@ -11,22 +11,18 @@ export default function Skills() {
             <div className='skills'>
                 <img className="animation-spin" src={logoReact} alt='logo-react'/>
                 <h2>React</h2>
-                <p>description</p>
             </div>
             <div className='skills'>
                 <img className="logo-js" src={logoJs} alt='logo-js'/>
                 <h2>JavaScript</h2>
-                <p>description</p>
             </div>
             <div className='skills'>
                 <img className="logo-sass" src={logoSass} alt='logo-sass'/>
                 <h2>Sass</h2>
-                <p>description</p>
             </div>
             <div className='skills'>
                 <img className="logo-tailwind" src={logoTailwind} alt='logo-tailwind'/>
                 <h2>Tailwind-css</h2>
-                <p>description</p>
             </div>
         </div>
     )
