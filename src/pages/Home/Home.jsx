@@ -1,9 +1,12 @@
 import React from "react";
-import profileImg from '../../assets/images/profile-img.webp';
+import profileImg from '/assets/images/profile-img.webp';
 import './Home.scss';
 import HomeBackground from "@/components/HomeBackground/HomeBackground";
-import PreviewProjects from "@/components/PreviewProjects/PreviewProjects";
 import Skills from "@/components/Skills/Skills";
+import PreviewProjects from "@/components/PreviewProject/PreviewProject";
+import Contact from "@/components/Contact/Contact";
+import { FaEnvelope, FaGithub, FaDownload } from 'react-icons/fa';
+
 
 
 function Home () {
@@ -21,20 +24,34 @@ function Home () {
             <img className="profile-img" src={profileImg} alt="Tiphanie Jan"/>
         </div>
         </section>
-            <button className="hero-btn">hello</button>
+            <div className="hero-buttons">
+                <a href="mailto:jan.tiphanie@outlook.fr">
+                    <button className="hero-contactBtn">
+                        <FaEnvelope /> Écrivez-moi
+                    </button>
+                </a>
+                <a href="https://github.com/Jtiph" target="_blank" rel="noopener noreferrer">
+                    <button className="hero-gitBtn">
+                        <FaGithub /> Découvrir sur GitHub
+                    </button>
+                </a>
+                <button className="hero-cvBtn">
+                    <FaDownload />Télécharger mon cv
+                </button>           
+            </div>
         </div>
-        <section className="preview-project">
-        <PreviewProjects/>  
+        <section className="preview-project-section">
+            <h2 className="home-section-title">Aperçu de mes projets</h2>
+        <PreviewProjects/>
         </section>
         <section className="skills-section">
-            <h2>Compétences</h2>
-            <Skills/>
-
-            
+            <h2 className="home-section-title">Compétences</h2>
+            <Skills/>       
         </section>   
-        <section className="contact">
+        <section className="contact-section">
             {/* formulaire de contact ou bouton contactez-moi  */}
-        </section>                  
+            <Contact/>
+        </section>              
         </div>
     )
 }

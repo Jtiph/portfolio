@@ -110,6 +110,6 @@ export const StarsBackground = ({
   return (
     <canvas
       ref={canvasRef}
-      className={cn("tw-h-full tw-w-full tw-absolute tw-inset-0 tw-z-0", className)} />
+      className={cn("tw-h-full tw-w-full tw-absolute tw-inset-0 tw-z-0", className)} style={{ pointerEvents: "none" }}/>
   );
 };

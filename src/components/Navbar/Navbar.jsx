@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './Navbar.scss';
-import iconGit from '../../assets/images/github.svg';
-import iconLinkedin from '../../assets/images/linkedin.svg'
+import iconGit from '/assets/images/github.svg';
+import iconLinkedin from '/assets/images/linkedin.svg'
 export default function Navbar() {
     return (
         <nav className="navbar">

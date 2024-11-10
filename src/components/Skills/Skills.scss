@@ -1,4 +1,4 @@
-.skills {
+.skills-container {
   display: flex;
   flex-direction: row;
   gap: 5rem;
@@ -9,12 +9,24 @@
   padding: 37px;
   align-items: center;
   justify-content: center;
-  .logo-js {
-    width: 30px;
-  }
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+.logo-js,
+.logo-sass {
+  width: 50px;
+}
+.logo-tailwind {
+  width: 50px;
+  margin-bottom: 16px;
 }
 .animation-spin {
   animation: spin 20s linear infinite;
+  width: 50px;
 }
 
 @keyframes spin {

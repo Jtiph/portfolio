@@ -94,7 +94,7 @@ export const ShootingStars = ({
   return (
     (<svg
       ref={svgRef}
-      className={cn("tw-w-full tw-h-full tw-absolute tw-inset-0", className)}>
+      className={cn("tw-w-full tw-h-full tw-absolute tw-inset-0", className)} style={{ pointerEvents: "none" }}>
       {star && (
         <rect
           key={star.id}

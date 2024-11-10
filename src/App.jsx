@@ -5,6 +5,7 @@ import About from "./pages/About/About";
 import './index.css';
 import './app.scss';
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 
 function App () {
@@ -16,6 +17,7 @@ function App () {
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
         </Routes>
+        <Footer/>
       </div>
     </Router>
   )

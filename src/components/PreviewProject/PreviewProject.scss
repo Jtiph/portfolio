@@ -1,0 +1,13 @@
+.preview-projects-container {
+  display: flex;
+  flex-direction: column;
+  background: #0d1118;
+  border: 1px solid #617595;
+  border-radius: 20px;
+  width: 1300px;
+  padding: 37px;
+}
+.preview-card {
+  display: flex;
+  flex-direction: row;
+}

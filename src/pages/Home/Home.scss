@@ -7,24 +7,20 @@
   align-items: center;
   margin-top: 8rem;
   &-title {
-    position: relative; // tw-relative
-    display: flex; // tw-flex
-    flex-direction: column; // tw-flex-col
-    z-index: 10; // tw-z-10
-    font-size: 1.875rem; // tw-text-3xl (environ 1.875rem)
-    max-width: 40rem; // tw-max-w-lg (environ 32rem)
-    text-align: center; // tw-text-center
-    letter-spacing: -0.015em; // tw-tracking-tight
-    font-weight: 500; // tw-font-medium
-    background-clip: text; // tw-bg-clip-text
-    color: transparent; // Texte transparent pour le dégradé
-    background-image: linear-gradient(
-      to bottom,
-      #a7bcdf,
-      #ffffff
-    ); // tw-bg-gradient-to-b from-neutral-800 via-white to-white
-    display: flex; // Répété
-    align-items: baseline; // tw-items-baseline
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    font-size: 1.875rem;
+    max-width: 40rem;
+    text-align: center;
+    letter-spacing: -0.015em;
+    font-weight: 500;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to bottom, #a7bcdf, #ffffff);
+    display: flex;
+    align-items: baseline;
     white-space: nowrap;
   }
   &-name {
@@ -36,26 +32,40 @@
     border-radius: 50%;
     width: 325px;
   }
-  &-btn {
-    background-color: red;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    max-width: 200px;
+}
+.hero-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding-left: 8.6rem;
+  width: 100%;
+}
+.hero-contactBtn,
+.hero-gitBtn,
+.hero-cvBtn {
+  background-color: #b3c9ed;
+  color: #162235;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  &:hover {
+    background-color: #a9bfe2;
   }
 }
-.preview-project {
+.preview-project-section,
+.skills-section,
+.contact-section {
   margin-top: 8rem;
   width: 100%;
   display: flex;
-  justify-content: center;
-}
-
-.skills-section {
-  display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 8rem;
+}
+.home-section-title {
+  font-size: 30px;
+  margin-bottom: 1rem;
 }
