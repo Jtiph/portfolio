@@ -1,17 +1,39 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import './Navbar.scss';
 import iconGit from '/assets/images/github.svg';
-import iconLinkedin from '/assets/images/linkedin.svg'
+import iconLinkedin from '/assets/images/linkedin.svg';
+import logoTJ from '/assets/images/logo-tj.png';
+
 export default function Navbar() {
+    const navigate = useNavigate();
+    const location = useLocation();
+
+    const scrollToContact = () => {
+        if (location.pathname === "/") {
+            const contactSection = document.getElementById("contact");
+            if (contactSection) {
+                contactSection.scrollIntoView({behavior: "smooth"});
+            }
+        } else {
+            navigate("/#contact");
+            setTimeout(() => {
+                const contactSection = document.getElementById("contact");
+                if (contactSection) {
+                    contactSection.scrollIntoView({behavior: "smooth"});
+                }
+            },0);
+        }
+    };
+
     return (
         <nav className="navbar">
-            <p>logo</p>
+            <img className="navbar-logo" src={logoTJ} alt="logo TJ"/>
             <div className="navbar-elements">
                 <ul className="navbar-elements-links">
-                    <li><Link to="/" className="link">Accueil</Link></li>
-                    <li><Link to="" className="link">Projets</Link></li>
-                    <li><Link to="" className="link">Contact</Link></li>
+                    <li><NavLink to="/" className="link">Accueil</NavLink></li>
+                    <li><NavLink to="/projects" className="link">Projets</NavLink></li>
+                    <li><span onClick={scrollToContact} className="link">Contact</span></li>
                 </ul>
                 <div className="nav-separateur"></div>
                 <div className="navbar-elements-icons">

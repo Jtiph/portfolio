@@ -6,54 +6,58 @@ import Skills from "@/components/Skills/Skills";
 import PreviewProjects from "@/components/PreviewProject/PreviewProject";
 import Contact from "@/components/Contact/Contact";
 import { FaEnvelope, FaGithub, FaDownload } from 'react-icons/fa';
+import ShimmerButton from "@/components/ui/shimmer-button";
 
 
 
 function Home () {
     return (
-        <div className="tw-relative tw-h-full tw-w-full">
-            <HomeBackground/>
-        <div className="tw-relative tw-z-10">
-            <section className="hero">
-                <h2 className="hero-title">
-                    <span>Hi, moi c'est</span>
-                    <span className="hero-name">Tiphanie Jan</span>
-                    <span>Intégrateur web - Passionnée de Front-end</span>
-                </h2>
-        <div className="hero-image-container">
-            <img className="profile-img" src={profileImg} alt="Tiphanie Jan"/>
-        </div>
-        </section>
-            <div className="hero-buttons">
-                <a href="mailto:jan.tiphanie@outlook.fr">
-                    <button className="hero-contactBtn">
-                        <FaEnvelope /> Écrivez-moi
-                    </button>
-                </a>
-                <a href="https://github.com/Jtiph" target="_blank" rel="noopener noreferrer">
-                    <button className="hero-gitBtn">
-                        <FaGithub /> Découvrir sur GitHub
-                    </button>
-                </a>
-                <a href="https://drive.google.com/file/d/1bJqfZcUXOIFcqJqfOsxfOby1KgifQzn5/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                    <button className="hero-cvBtn">
-                        <FaDownload />Télécharger mon cv
-                    </button>
-                </a>         
-            </div>
-        </div>
-        <section className="preview-project-section">
-            <h2 className="home-section-title">Aperçu de mes projets</h2>
-        <PreviewProjects/>
-        </section>
-        <section className="skills-section">
-            <h2 className="home-section-title">Compétences</h2>
-            <Skills/>       
-        </section>   
-        <section className="contact-section">
-            {/* formulaire de contact ou bouton contactez-moi  */}
-            <Contact/>
-        </section>              
+        <div className="page-container">
+            <div className="content">
+                <HomeBackground/>
+                <div className="hero-container">
+                <section className="hero">
+                    <h2 className="hero-title">
+                        <span>Hi, moi c'est</span>
+                        <span className="hero-name">Tiphanie Jan</span>
+                        <span>Intégrateur web - Passionnée de Front-end</span>
+                    </h2>
+                    <div className="hero-image-container">
+                        <img className="profile-img" src={profileImg} alt="Tiphanie Jan"/>
+                    </div>
+                </section>
+                <div className="hero-buttons">
+                        <div className="hero-mail-and-git">
+                            <a href="mailto:jan.tiphanie@outlook.fr" className="hero-link-mail">
+                                <ShimmerButton shimmerColor="#f0e68c" background="#4B4B4B"   className="hero-contactBtn">
+                                <FaEnvelope /> Écrivez-moi
+                                </ShimmerButton>
+                        </a>
+                        <a href="https://github.com/Jtiph" target="_blank" rel="noopener noreferrer" className="hero-link-git">
+                            <ShimmerButton shimmerColor="#D9E9FF" className="hero-gitBtn">
+                                <FaGithub /> Découvrir sur GitHub
+                            </ShimmerButton>
+                        </a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1bJqfZcUXOIFcqJqfOsxfOby1KgifQzn5/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hero-link-cv">
+                        <ShimmerButton shimmerColor="#D9E9FF" className="hero-cvBtn">
+                            <FaDownload />Télécharger mon cv
+                        </ShimmerButton>
+                    </a>
+                </div>
+                        </div>
+                        <section className="preview-project-section">
+                        <PreviewProjects/>
+                        </section>
+                        <section className="skills-and-contact-section">
+                <div className="skills-and-contact-section-container">
+                    <div className="skills-section-part">
+                        <Skills/>
+                    </div>
+                    <div id="contact" className="contact-section-part"><Contact/></div>
+                </div>
+                        </section>
+            </div>      
         </div>
     )
 }

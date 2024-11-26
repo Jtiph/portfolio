@@ -21,14 +21,15 @@ const ContactForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
+
         emailjs.send(
             'service_zd7klsq',
-            'template_k5g1gtu',
+            'template_hue9z1i',
             formData,
-            'u7elw5pafc5Q4lwGr'
+            'g9Yjyd4iIaSLuq-pc'
         )
-        .then((response) => {
-            alert('Merci pour votre message, ${formData.firstName} ${formData.lastName} de ${formData.company}!');
+        .then(() => {
+            alert('Merci pour votre message!');
             setFormData({ firstName:'', lastName: '', company: '', email: '', message: '' });         
         })
         .catch((error) => {
@@ -103,7 +104,9 @@ const ContactForm = () => {
                         required
                     />
                 </label>
-                <div className='form-btnContainer'><button type="submit" className='form-btn'>Envoyer</button></div>
+                <div className='form-btnContainer'>
+                    <button type="submit" className='form-btn'>Envoyer</button>
+                </div>
         </form>
     );
 }

@@ -19,6 +19,13 @@ form {
       border-color: #6ea3fd52;
       box-shadow: 0 0 5px #6ea3fd52; /* Ombre douce autour du champ */
     }
+    @media (max-width: 768px) {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  }
+  @media (max-width: 768px) {
+    gap: 0.8rem;
   }
 }
 .form-btnContainer {
@@ -26,6 +33,11 @@ form {
   justify-content: center;
   max-width: 492px;
   width: 100%;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
 }
 .form-btn {
   border: 1px solid #617595;
@@ -34,8 +46,11 @@ form {
   width: 130px;
   max-width: 100%;
   &:hover {
-    background-color: #2f405d;
-    transition-duration: 2sec;
+    background-color: #a9bfe2;
+    color: #162235;
+  }
+  @media (max-width: 768px) {
+    text-align: center;
   }
 }
 .form-names,
@@ -43,8 +58,17 @@ form {
   display: flex;
   flex-direction: row;
   gap: 2rem;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+  }
 }
 textarea {
   width: 100%;
   max-width: 492px;
+  height: 194px;
+  @media (max-width: 768px) {
+    height: 150px;
+  }
 }
