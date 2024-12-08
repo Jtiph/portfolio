@@ -1,0 +1,33 @@
+.language-switcher {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__selected {
+    width: 25px;
+    height: 25px;
+  }
+}
+.language-switcher__menu {
+  position: absolute;
+  top: 43px;
+  left: 0px;
+  background-color: #0d1118;
+  border: 1px solid #eeeef0;
+  border-radius: 5px;
+  width: 108px;
+  font-size: 12px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  &-item {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    gap: 10px;
+    cursor: pointer;
+  }
+}

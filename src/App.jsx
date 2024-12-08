@@ -8,10 +8,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Error from "./pages/Error/Error";
-import { useTranslation } from "react-i18next";
 
 function App () {
-  const { t } = useTranslation();
   return (
     <Router>
       <ScrollToTop/>

@@ -1,8 +1,10 @@
 import React, {useState} from 'react';
 import emailjs from '@emailjs/browser';
 import './ContactForm.scss';
+import { useTranslation } from 'react-i18next';
 
 const ContactForm = () => {
+    const {t} = useTranslation();
     const [formData, setFormData] = useState({
         firstName: '',
         lastName: '',
@@ -43,7 +45,7 @@ const ContactForm = () => {
             <div className='form-names'>
                 <label>
                     <div className='label-firstName'>
-                        Prénom
+                    {t("contact-form.label1")}
                         <span className='required-stars'>*</span>
                     </div>
                     <input
@@ -56,7 +58,7 @@ const ContactForm = () => {
                 </label>
                 <label>
                     <div>
-                        Nom
+                    {t("contact-form.label2")}
                         <span className='required-stars'>*</span>
                     </div>
                     <input
@@ -71,7 +73,7 @@ const ContactForm = () => {
             <div className='form-details'>
                 <label>
                     <div>
-                        Email
+                    {t("contact-form.label3")}
                         <span className='required-stars'>*</span>
                     </div>
                     <input
@@ -83,7 +85,7 @@ const ContactForm = () => {
                         />
                 </label>
                 <label>
-                    <div>Société</div>
+                    <div>{t("contact-form.label4")}</div>
                     <input
                         type="text"
                         name="company"
@@ -94,7 +96,7 @@ const ContactForm = () => {
             </div>
                 <label>
                     <div>
-                        Message
+                    {t("contact-form.label5")}
                         <span className='required-stars'>*</span>
                     </div>
                     <textarea
@@ -105,7 +107,7 @@ const ContactForm = () => {
                     />
                 </label>
                 <div className='form-btnContainer'>
-                    <button type="submit" className='form-btn'>Envoyer</button>
+                    <button type="submit" className='form-btn'>{t("contact-form.btn-send")}</button>
                 </div>
         </form>
     );

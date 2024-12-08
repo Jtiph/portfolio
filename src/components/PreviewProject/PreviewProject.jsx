@@ -5,9 +5,11 @@ import { TbFileBroken } from "react-icons/tb";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import './PreviewProject.scss';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 
 export default function PreviewProjects() {
+    const {t} = useTranslation();
     const validProjects = projects.filter((project) => project.date);
     const sortedProjects = validProjects.sort(
         (a, b) => new Date(b.date) - new Date(a.date)
@@ -17,7 +19,7 @@ export default function PreviewProjects() {
     return(
         
         <div className='preview-projects-container'>
-             <h2 className='preview-projects-title'>Un aperçu de mon travail</h2>
+             <h2 className='preview-projects-title'> {t("preview-projects.title")}</h2>
             <div className="preview-card">
                 {recentProjects.map((card) => (
                     <Card
@@ -33,7 +35,7 @@ export default function PreviewProjects() {
             )}
             </div>
             <Link to="/projects" className='preview-btn'>
-                Voir plus 
+                {t("preview-projects.link-text")}
                 <div className='preview-btn-icon'>
                     <MdKeyboardDoubleArrowRight />
                 </div>

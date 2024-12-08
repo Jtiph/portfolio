@@ -1,0 +1,49 @@
+
+{
+  "navbar": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+    "card": {
+     "title": "",
+      "description_example": "Ceci est une description d'exemple pour une carte.",
+      "link_text": "Voir"
+    },
+    "preview-projects": {
+      "title": "Un aperçu de mon travail",
+      "link-text": "Voir plus"
+    },
+    "skills":{
+      "title":"Compétences",
+      "text":"C'est bien beau, mais ça donne quoi dans la réalité ?",
+      "link-text":"Explorer mes projets"
+    },
+  "contact":{
+    "title": "Prêt à discuter ?",
+     "description": "Des questions, des projets ou une opportunité d'emploi ? Je serais ravie d'en discuter avec vous."
+  },
+  "contact-form":{
+    "label1": "Prénom",
+    "label2": "Nom",
+    "label3": "Email",
+    "label4": "Société",
+    "label5": "Message",
+    "btn-send":"Envoyer"
+  },
+  "footer":{
+    "text": "© 2024 Tiphanie.All rights reserved"
+  },
+  "home":{
+    "welcome-text":"Hi, moi c'est",
+    "my-name":"Tiphanie Jan",
+    "job-text":"Intégrateur web - Passionnée de Front-end",
+    "btn-writeMe":"Écrivez-moi",
+    "btn-git":"Découvrir sur GitHub",
+    "btn-cv":"Télécharger mon cv"
+  }
+
+}
+
+
+

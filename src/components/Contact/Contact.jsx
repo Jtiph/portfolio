@@ -1,15 +1,16 @@
 import React from 'react';
 import './Contact.scss';
 import ContactForm from '../ContactForm/ContactForm';
+import { useTranslation } from 'react-i18next';
 
 export default function Contact() {
+    const {t} = useTranslation();
     return (
         <div className="contact-container">
             <div className='contact-content'>
-                <h2 className="contact-title">Prêt à discuter ?</h2>
+                <h2 className="contact-title">{t("contact.title")}</h2>
                 <p className="contact-description">
-                        Des questions, des projets ou une opportunité d'emploi ?
-                        Je serais ravie d'en discuter avec vous.
+                {t("contact.description")}
                 </p>
             </div>
         <div className='contact-form-container'><ContactForm/></div>

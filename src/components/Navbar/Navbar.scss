@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   gap: 2rem;
-  padding: 20px 30px;
+  padding: 8px 30px;
   align-items: center;
   border-bottom: 3px solid #3c4f6d;
   width: 100%;
@@ -37,7 +37,7 @@
 }
 .nav-separateur {
   border-right: 1px solid #617595;
-  height: 15px;
+  height: 20px;
   @media (max-width: 768px) {
     display: none;
   }
