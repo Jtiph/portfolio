@@ -16,7 +16,7 @@ export default function Card({ image, title, description, alt, link, icon, date 
                 <h2 className="card__title">{t(title)}</h2>
             </div>
             <p className="card__description">{t(description)}</p>
-            <a href={link} className="card__link"> <FaGithub className='card__link-icon'/> Voir</a>
+            <a href={link} className="card__link"> <FaGithub className='card__link-icon'/> {t("card.link_text")}</a>
         </div>
     );
 }

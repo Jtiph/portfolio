@@ -40,6 +40,9 @@
   "btn-writeMe": "Write to me",
   "btn-git": "Discover on GitHub",
   "btn-cv": "Download my resume"
+},
+"projects": {
+  "text": "See my work"
 }
 
 }

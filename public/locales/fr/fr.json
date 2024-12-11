@@ -7,7 +7,7 @@
   },
     "card": {
      "title": "",
-      "description_example": "Ceci est une description d'exemple pour une carte.",
+      "description": "",
       "link_text": "Voir"
     },
     "preview-projects": {
@@ -41,8 +41,10 @@
     "btn-writeMe":"Écrivez-moi",
     "btn-git":"Découvrir sur GitHub",
     "btn-cv":"Télécharger mon cv"
+  },
+  "projects":{
+    "text":"voir mes travaux"
   }
-
 }
 
 

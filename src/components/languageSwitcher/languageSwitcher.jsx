@@ -13,7 +13,7 @@ export default function LanguageSwitcher() {
     { code: "kr", name: "한국어", flag: "/assets/images/flags/kr.svg" },
   ];
 
-  // Langues disponibles (exclure la langue active)
+  // Langues actuelles, exclure la langue active
   const currentLanguages = languages.filter(
     (lang) => lang.code !== i18n.language
   );

@@ -40,6 +40,10 @@
   "btn-writeMe": "저에게 글을 보내세요",
   "btn-git": "GitHub에서 보기",
   "btn-cv": "이력서 다운로드"
+},
+"projects": {
+  "text": "내 작업 보기"
 }
+
 
 }
