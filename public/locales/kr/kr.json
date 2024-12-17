@@ -1,12 +1,13 @@
 {
+  "Sophie Bluel, Architecte": "Sophie Bluel, 건축가",
+  "Nina Carducci, photographe": "Nina Carducci, 사진사",
+  "Portfolio": "포트폴리오",
   "navbar": {
     "home": "홈",
     "projects": "프로젝트",
     "contact": "연락처"
   },
   "card": {
-    "title": "",
-    "description_example": "이것은 카드의 예시 설명입니다.",
     "link_text": "보기"
   },
   "preview-projects": {
@@ -44,6 +45,4 @@
 "projects": {
   "text": "내 작업 보기"
 }
-
-
 }

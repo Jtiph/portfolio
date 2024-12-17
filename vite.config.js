@@ -4,6 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/portfolio/',
   css: {
     preprocessorOptions: {
       scss: {
@@ -13,6 +14,7 @@ export default defineConfig({
   },
   server: {
     open: true,
+    historyApiFallback: true,
   },
   resolve: {
     alias: {

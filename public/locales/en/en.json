@@ -1,12 +1,12 @@
 {
+  "Sophie Bluel, Architecte": "Sophie Bluel, Architect",
+  "Nina Carducci, photographe": "Nina Carducci, photograph",
   "navbar": {
     "home": "Home",
     "projects": "Projects",
     "contact": "Contact"
   },
   "card": {
-    "title": "",
-    "description_example": "This is a sample description for a card.",
     "link_text": "See"
   },
   "preview-projects": {
