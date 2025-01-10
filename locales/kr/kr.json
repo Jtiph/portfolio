@@ -1,0 +1,55 @@
+{
+  "Sophie Bluel, Architecte": "Sophie Bluel, 건축가",
+  "Nina Carducci, photographe": "Nina Carducci, 사진사",
+  "Débugg du site d'une agence d'événementiel":"이벤트 에이전시 웹사이트 디버깅",
+  "Création du portfolio de développeur":"개발자 포트폴리오 제작",
+  "Refonte du site ASP.NET avec Node.js et React":"ASP.NET 사이트를 Node.js와 React로 전면 개편",
+  "Portfolio": "포트폴리오",
+  "navbar": {
+    "home": "홈",
+    "projects": "프로젝트",
+    "contact": "연락처"
+  },
+  "card": {
+    "link_text": "보기"
+  },
+  "preview-projects": {
+    "title": "내 작업 개요",
+    "link-text": "더 보기"
+  },
+  "skills": {
+  "title": "기술",
+  "text": "그건 좋지만, 실제로는 어떻게 적용될까요?",
+  "link-text": "내 프로젝트 탐색"
+},
+  "contact": {
+    "title": "채팅할 준비가 되셨나요?",
+    "description": "질문, 프로젝트 또는 직업 기회가 있으신가요? 기꺼이 논의하겠습니다."
+  },
+  "contact-form": {
+    "label1": "이름",
+    "label2": "성",
+    "label3": "이메일",
+    "label4": "회사",
+    "label5": "메시지",
+     "btn-send": "보내기"
+  },
+  "footer": {
+    "text": "© 2024 Tiphanie. 모든 권리 보유."
+  },
+  "home": {
+  "welcome-text": "안녕, 난",
+  "my-name": "티파니 장",
+  "job-text": "웹 통합자 - 프론트엔드에 열정을 가진",
+  "btn-writeMe": "저에게 글을 보내세요",
+  "btn-git": "GitHub에서 보기",
+  "btn-cv": "이력서 다운로드"
+},
+"projects": {
+  "text": "내 작업 보기"
+},
+"error": {
+  "text": "페이지를 찾을 수 없습니다",
+  "link": "홈페이지로 돌아가기"
+}
+}

@@ -1,0 +1,55 @@
+{
+  "Sophie Bluel, Architecte": "Sophie Bluel, Architect",
+  "Nina Carducci, photographe": "Nina Carducci, photograph",
+  "Débugg du site d'une agence d'événementiel":"Debugging the website of an event agency",
+  "Création du portfolio de développeur":"Creating the developer's portfolio",
+  "Refonte du site ASP.NET avec Node.js et React":"Redesign of the ASP.NET site with Node.js and React",
+
+  "navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "card": {
+    "link_text": "See"
+  },
+  "preview-projects": {
+    "title": "An overview of my work",
+    "link-text": "See more"
+  },
+  "skills": {
+  "title": "Skills",
+  "text": "That's all well and good, but what does it really do?",
+  "link-text": "Explore my projects"
+},
+  "contact": {
+    "title": "Ready to chat?",
+    "description": "Questions, projects, or a job opportunity? I would be happy to discuss it with you."
+  },
+  "contact-form": {
+    "label1": "First Name",
+    "label2": "Last Name",
+    "label3": "Email",
+    "label4": "Company",
+    "label5": "Message",
+    "btn-send": "Send"
+  },
+  "footer": {
+    "text": "© 2024 Tiphanie. All rights reserved"
+  },
+  "home": {
+  "welcome-text": "Hi, I'm",
+  "my-name": "Tiphanie Jan",
+  "job-text": "Web integrator - Passionate about Front-end",
+  "btn-writeMe": "Write to me",
+  "btn-git": "Discover on GitHub",
+  "btn-cv": "Download my resume"
+},
+"projects": {
+  "text": "See my work"
+},
+"error": {
+  "text": "Page not found",
+  "link": "Return to homepage"
+}
+}
