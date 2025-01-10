@@ -32,10 +32,11 @@ export default function LanguageSwitcher() {
         className="language-switcher__selected"
         onClick={() => setOpen(!open)}
       >
+        {/* met le drapeau français par défault si aucun langue ou drapeau n'a été trouvé */}
         <img
           src={
             languages.find((lang) => lang.code === i18n.language)?.flag ||
-            "/assets/images/default-flag.svg"
+            "/assets/images/fr.svg"
           }
           alt="Current language flag"
         />

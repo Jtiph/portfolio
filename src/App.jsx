@@ -11,7 +11,7 @@ import Error from "./pages/Error/Error";
 
 function App () {
   return (
-    <Router>
+    <Router >
       <ScrollToTop/>
       <div>
       <Navbar/>
