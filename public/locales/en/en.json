@@ -1,6 +1,10 @@
 {
   "Sophie Bluel, Architecte": "Sophie Bluel, Architect",
   "Nina Carducci, photographe": "Nina Carducci, photograph",
+  "Débugg du site d'une agence d'événementiel":"Debugging the website of an event agency",
+  "Création du portfolio de développeur":"Creating the developer's portfolio",
+  "Refonte du site ASP.NET avec Node.js et React":"Redesign of the ASP.NET site with Node.js and React",
+
   "navbar": {
     "home": "Home",
     "projects": "Projects",
@@ -43,6 +47,9 @@
 },
 "projects": {
   "text": "See my work"
+},
+"error": {
+  "text": "Page not found",
+  "link": "Return to homepage"
 }
-
 }

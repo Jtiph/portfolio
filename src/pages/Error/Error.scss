@@ -4,18 +4,50 @@
   align-items: center;
   width: 100%;
   margin-top: 5rem;
+
   &-text {
     font-size: 30px;
+
+    @media (max-width: 768px) {
+      font-size: 24px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 18px;
+    }
   }
+
   &-title {
     font-size: 200px;
+
+    @media (max-width: 768px) {
+      font-size: 120px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 80px;
+    }
   }
+
   &-btn {
     margin-top: 2rem;
+
+    @media (max-width: 768px) {
+      margin-top: 1.5rem;
+    }
   }
 }
+
 .error-link {
   font-size: 34px;
   font-weight: lighter;
   text-decoration: underline;
+
+  @media (max-width: 768px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 20px;
+  }
 }

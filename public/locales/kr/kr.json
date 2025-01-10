@@ -1,6 +1,9 @@
 {
   "Sophie Bluel, Architecte": "Sophie Bluel, 건축가",
   "Nina Carducci, photographe": "Nina Carducci, 사진사",
+  "Débugg du site d'une agence d'événementiel":"이벤트 에이전시 웹사이트 디버깅",
+  "Création du portfolio de développeur":"개발자 포트폴리오 제작",
+  "Refonte du site ASP.NET avec Node.js et React":"ASP.NET 사이트를 Node.js와 React로 전면 개편",
   "Portfolio": "포트폴리오",
   "navbar": {
     "home": "홈",
@@ -44,5 +47,9 @@
 },
 "projects": {
   "text": "내 작업 보기"
+},
+"error": {
+  "text": "페이지를 찾을 수 없습니다",
+  "link": "홈페이지로 돌아가기"
 }
 }

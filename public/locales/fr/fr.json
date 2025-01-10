@@ -42,6 +42,10 @@
   },
   "projects":{
     "text":"voir mes travaux"
+  },
+  "error":{
+    "text": "Page introuvable",
+    "link": "Retourner à l'accueil"
   }
 }
 

@@ -30,6 +30,8 @@ export default function PreviewProjects() {
                         link={card.link}
                         icon={<TbFileBroken />}
                         date={card.date}
+                        description={card.description}
+                        skills={card.skills}
                     />
                 )
             )}
