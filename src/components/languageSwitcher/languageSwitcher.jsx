@@ -35,8 +35,14 @@ export default function LanguageSwitcher() {
         {/* met le drapeau français par défault si aucun langue ou drapeau n'a été trouvé */}
         <img
           src={
-            languages.find((lang) => lang.code === i18n.language)?.flag ||
-            "/portfolio/assets/images/fr.svg"
+            <img 
+              src={
+                languages.find((lang) => lang.code === i18n.language)?.flag ||
+                languages.find((lang) => lang.code === "fr").flag
+              }
+  alt="Current language flag"
+/>
+
           }
           alt="Current language flag"
         />
