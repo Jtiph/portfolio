@@ -8,9 +8,9 @@ export default function LanguageSwitcher() {
 
   // Liste de langues
   const languages = [
-    { code: "fr", name: "Français", flag: "/assets/images/flags/fr.svg" },
-    { code: "en", name: "English", flag: "/assets/images/flags/en.svg" },
-    { code: "kr", name: "한국어", flag: "/assets/images/flags/kr.svg" },
+    { code: "fr", name: "Français", flag: "/portfolio/assets/images/flags/fr.svg" },
+    { code: "en", name: "English", flag: "/portfolio/assets/images/flags/en.svg" },
+    { code: "kr", name: "한국어", flag: "/portfolio/assets/images/flags/kr.svg" },
   ];
 
   // Langues actuelles, exclure la langue active
