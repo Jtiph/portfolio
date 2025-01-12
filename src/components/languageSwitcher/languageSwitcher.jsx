@@ -36,7 +36,7 @@ export default function LanguageSwitcher() {
         <img
           src={
             languages.find((lang) => lang.code === i18n.language)?.flag ||
-            "/assets/images/fr.svg"
+            "/portfolio/assets/images/fr.svg"
           }
           alt="Current language flag"
         />
