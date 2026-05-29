@@ -42,7 +42,7 @@ function Home () {
                             </ShimmerButton>
                         </a>
                     </div>
-                    <a href="https://drive.google.com/file/d/1TV77qi3eup2o1VP8BgiiHtzWdqdlixNG/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hero-link-cv">
+                    <a href="https://drive.google.com/file/d/1xiV9pwJ_ZgYz0_NoVFrm0KO35RLRgEEC/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hero-link-cv">
                         <ShimmerButton shimmerColor="#D9E9FF" className="hero-cvBtn">
                             <FaDownload />{t("home.btn-cv")}
                         </ShimmerButton>
