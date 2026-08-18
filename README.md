@@ -4,6 +4,8 @@ Portfolio professionnel responsive développé afin de présenter mes projets, c
 
 Ce portfolio a été conçu comme une véritable vitrine professionnelle mettant en avant mes réalisations, mes compétences techniques ainsi que mon approche du développement moderne et de l’expérience utilisateur.
 
+(en cours de modification) 
+
 ## Features
 
 - Design responsive mobile, tablette et desktop
